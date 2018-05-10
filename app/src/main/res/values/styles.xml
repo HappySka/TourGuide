@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/black</item>
+        <item name="tabSelectedTextColor">@android:color/black</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        <item name="tabPaddingStart">-1dp</item>
+        <item name="tabPaddingEnd">-1dp</item>
+        <item name="android:background">@color/primary_color</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="list_item_addtional_info">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/attraction_info_color</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="list_item_attraction_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/attraction_name_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

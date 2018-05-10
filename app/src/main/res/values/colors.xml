@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#FCDD09</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#000000</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <color name="tab_text_color">#848484</color>
+
+    <color name="item_background">#DDDDDD</color>
+
+    <color name="app_background">#EEEEEE</color>
+    <color name="attraction_info_color">#222222</color>
+
+</resources>
