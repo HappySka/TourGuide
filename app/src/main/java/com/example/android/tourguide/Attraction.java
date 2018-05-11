@@ -14,13 +14,13 @@ public class Attraction {
     private int mImageResourceId = HAS_NO_IMAGE;
 
 
-    public Attraction(String mName, String mAddress, String mShortInfo) {
+    public Attraction(String mName, String mShortInfo, String mAddress) {
         this.mName = mName;
         this.mAddress = mAddress;
         this.mShortInfo = mShortInfo;
     }
 
-    public Attraction(String mName, String mAddress, String mShortInfo, int mImageResourceId) {
+    public Attraction(String mName, String mShortInfo, String mAddress, int mImageResourceId) {
         this.mName = mName;
         this.mAddress = mAddress;
         this.mShortInfo = mShortInfo;

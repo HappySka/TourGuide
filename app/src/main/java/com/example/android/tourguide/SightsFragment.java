@@ -6,7 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -22,9 +24,20 @@ public class SightsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        TextView textView = new TextView(getActivity());
-        textView.setText(R.string.hello_blank_fragment);
-        return textView;
+        View rootView = inflater.inflate(R.layout.attraction_list, container, false);
+
+        //List of attractions
+        final ArrayList<Attraction> attractions = new ArrayList<>();
+        attractions.add(new Attraction("Aachen Cathedral", "UNESCO World Heritage Site", "Domhof 1"));
+
+        //Create an adapter for the attractions and set it for the list view
+        AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
+        ListView listView = rootView.findViewById(R.id.list);
+        listView.setAdapter(adapter);
+
+        //Open a map/navigation app when an item is clicked with the address of the attraction
+
+        return rootView;
     }
 
 }
