@@ -8,13 +8,15 @@
     <color name="primary_dark_color">#000000</color>
 
     <!-- Background color for app -->
-    <color name="tan_background">#FFF7DA</color>
+    <color name="app_background">#EEEEEE</color>
 
+    <!-- Text Color for Category Selection Tab-->
     <color name="tab_text_color">#848484</color>
 
+    <!-- Background Color for Attraction Items in List-->
     <color name="item_background">#DDDDDD</color>
 
-    <color name="app_background">#EEEEEE</color>
+    <!-- Text Color for the further information about an attraction-->
     <color name="attraction_info_color">#222222</color>
 
 </resources>

@@ -42,4 +42,10 @@ public class Attraction {
     public int getImageResourceId() {
         return mImageResourceId;
     }
+
+    public boolean hasImage() {
+        return mImageResourceId != HAS_NO_IMAGE;
+    }
+
+
 }

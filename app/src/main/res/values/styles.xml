@@ -24,6 +24,7 @@
         <item name="android:textSize">13sp</item>
     </style>
 
+    <!-- Style for the additional information and address of an attraction-->
     <style name="list_item_addtional_info">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">0dp</item>
@@ -32,6 +33,7 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <!-- Style for the name of an attraction-->
     <style name="list_item_attraction_name">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">0dp</item>
