@@ -27,8 +27,10 @@ public class SightsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.attraction_list, container, false);
 
         //List of attractions
-        final ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Aachen Cathedral", "UNESCO World Heritage Site", "Domhof 1"));
+        ArrayList<Attraction> attractions = new ArrayList<>();
+        attractions.add(new Attraction("Aachen Cathedral", "UNESCO World Heritage Site", "Domhof 1", R.drawable.aachen_cathedral));
+        attractions.add(new Attraction("Town Hall", "Built in Gothic architecture", "Markt", R.drawable.aachen_cityhall));
+        attractions.add(new Attraction("Ponttor", "Remaining gate of the original city wall", "Pontwall 18", R.drawable.aachen_ponttor));
 
         //Create an adapter for the attractions and set it for the list view
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
@@ -36,6 +38,7 @@ public class SightsFragment extends Fragment {
         listView.setAdapter(adapter);
 
         //Open a map/navigation app when an item is clicked with the address of the attraction
+        listView.setOnItemClickListener(new ClickToMap(getActivity(), attractions));
 
         return rootView;
     }
