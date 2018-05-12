@@ -20,9 +20,9 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:paddingBottom="5dp"
-        android:paddingLeft="12dp"
-        android:paddingTop="4dp">
+        android:paddingBottom="@dimen/list_item_padding_bottom"
+        android:paddingLeft="@dimen/list_item_padding_left"
+        android:paddingTop="@dimen/list_item_padding_top">
 
         <TextView
             android:id="@+id/attraction_name"
