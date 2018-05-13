@@ -6,5 +6,57 @@
     <string name="category_hotels">Hotels</string>
     <string name="category_restaurants">Restaurants</string>
     <string name="category_sights">Sights</string>
-    <string name="city_name_map_extension">, Aachen</string>
+
+    <string name="city_name_map_extension" translatable="false">, Aachen</string>
+
+    <string name="uri_geo_code" translatable="false">geo:0,0?q=</string>
+
+    <string name="charlemagne_prize">Award of Charlemagne Prize of Aachen</string>
+    <string name="charlemagne_prize_date">10. May</string>
+    <string name="charlemagne_prize_address" translatable="false">Markt</string>
+
+    <string name="chio" translatable="false">CHIO</string>
+    <string name="chio_date_and_info">13. - 22. July, International Horse Show</string>
+    <string name="chio_address" translatable="false">Albert-Servais-Allee 50</string>
+
+    <string name="christmas_market">Christmas Market</string>
+    <string name="christmas_market_date">24. November - 23. December</string>
+    <string name="christmas_market_address" translatable="false">Markt</string>
+
+    <string name="two_stars" translatable="false">★★</string>
+    <string name="four_stars" translatable="false">★★★★</string>
+
+    <string name="leonardo_hotel" translatable="false">Leonardo Hotel Aachen</string>
+    <string name="leonardo_hotel_address" translatable="false">Krefelder Str. 221</string>
+
+    <string name="A_and_O" translatable="false"><![CDATA[A&O]]></string>
+    <string name="a_and_o_address" translatable="false">Hackländerstraße 5</string>
+
+    <string name="mercure_hotel" translatable="false">Mercure Hotel</string>
+    <string name="mercure_hotel_address" translatable="false">Joseph-von-Görres-Straße 21</string>
+
+    <string name="al_triangolo" translatable="false">Ristorante Al Triangolo</string>
+    <string name="italian">Italian</string>
+    <string name="address_al_triangolo" translatable="false">Rommelsgasse 2</string>
+
+    <string name="german">German</string>
+    <string name="mediterranean_international">Mediterranean and International</string>
+
+    <string name="am_knipp" translatable="false">Am Knipp</string>
+    <string name="am_knipp_address" translatable="false">Bergdriesch 3</string>
+
+    <string name="one_and_only" translatable="false">Restaurant One and Only</string>
+    <string name="one_and_only_address" translatable="false">Peterstraße 81-83</string>
+
+    <string name="aachen_cathedral">Aachen Cathedral</string>
+    <string name="world_heritage">UNESCO World Heritage Site</string>
+    <string name="cathedral_address">Domhof 1</string>
+
+    <string name="town_hall">Town Hall</string>
+    <string name="town_hall_description">Built in Gothic architecture</string>
+    <string name="town_hall_address">Markt</string>
+
+    <string name="ponttor" translatable="false">Ponttor</string>
+    <string name="ponttor_description">Remaining gate of the original city wall</string>
+    <string name="ponttor_address" translatable="false">Pontwall 18</string>
 </resources>

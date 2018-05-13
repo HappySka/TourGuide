@@ -28,9 +28,9 @@ public class EventsFragment extends Fragment {
 
         //List of attractions
         ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Award of Charlemagne Prize of Aachen", "10. May", "Markt"));
-        attractions.add(new Attraction("CHIO", "13. - 22. July, International Horse Show", "Albert-Servais-Allee 50"));
-        attractions.add(new Attraction("Christmas Market", "24. November - 23. December", "Markt"));
+        attractions.add(new Attraction(getString(R.string.charlemagne_prize), getString(R.string.charlemagne_prize_date), getString(R.string.charlemagne_prize_address)));
+        attractions.add(new Attraction(getString(R.string.chio), getString(R.string.chio_date_and_info), getString(R.string.chio_address)));
+        attractions.add(new Attraction(getString(R.string.christmas_market), getString(R.string.christmas_market_date), getString(R.string.christmas_market_address)));
 
         //Create an adapter for the attractions and set it for the list view
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);

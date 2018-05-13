@@ -29,7 +29,7 @@ public class ClickToMap implements OnItemClickListener {
         address += mContext.getResources().getString(R.string.city_name_map_extension);
 
         //Parse Address into Uri that consists of the address (no coordinates)
-        Uri addressUri = Uri.parse("geo:0,0?q=" + Uri.encode(address));
+        Uri addressUri = Uri.parse(mContext.getString(R.string.uri_geo_code) + Uri.encode(address));
 
         //Open an app that can show the location on a map if such an app is installed on the device
         Intent intent = new Intent(Intent.ACTION_VIEW);

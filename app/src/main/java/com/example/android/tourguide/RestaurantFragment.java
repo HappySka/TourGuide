@@ -28,9 +28,9 @@ public class RestaurantFragment extends Fragment {
 
         //List of attractions
         ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Ristorante Al Triangolo", "Italian", "Rommelsgasse 2"));
-        attractions.add(new Attraction("Am Knipp", "German", "Bergdriesch 3"));
-        attractions.add(new Attraction("Restaurant One and Only", "Mediterranean and International", "Peterstraße 81-83"));
+        attractions.add(new Attraction(getString(R.string.al_triangolo), getString(R.string.italian), getString(R.string.address_al_triangolo)));
+        attractions.add(new Attraction(getString(R.string.am_knipp), getString(R.string.german), getString(R.string.am_knipp_address)));
+        attractions.add(new Attraction(getString(R.string.one_and_only), getString(R.string.mediterranean_international), getString(R.string.one_and_only_address)));
 
         //Create an adapter for the attractions and set it for the list view
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);

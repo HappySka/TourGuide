@@ -28,9 +28,9 @@ public class HotelsFragment extends Fragment {
 
         //List of attractions
         ArrayList<Attraction> attractions = new ArrayList<>();
-        attractions.add(new Attraction("Leonardo Hotel Aachen", "★★★★", "Krefelder Str. 221"));
-        attractions.add(new Attraction("A&O", "★★", "Hackländerstraße 5"));
-        attractions.add(new Attraction("Mercure Hotel", "★★★★", "Joseph-von-Görres-Straße 21"));
+        attractions.add(new Attraction(getString(R.string.leonardo_hotel), getString(R.string.four_stars), getString(R.string.leonardo_hotel_address)));
+        attractions.add(new Attraction(getString(R.string.A_and_O), getString(R.string.two_stars), getString(R.string.a_and_o_address)));
+        attractions.add(new Attraction(getString(R.string.mercure_hotel), getString(R.string.four_stars), getString(R.string.mercure_hotel_address)));
 
         //Create an adapter for the attractions and set it for the list view
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions);
